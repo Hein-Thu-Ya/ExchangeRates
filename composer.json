@@ -1,0 +1,28 @@
+{
+    "name": "centralbank/exchangerates",
+    "description": "Modified Central Bank of Myanmar Exchange Rates API Laravel Package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Centralbank\\Exchangerates\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hein Thu Ya",
+            "email": "heinthuya12@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Centralbank\\Exchangerates\\ExchangeRatesServiceProvider"
+            ]
+        }
+    }
+}
