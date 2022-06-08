@@ -35,7 +35,7 @@ If you want to register it yourself, add the ServiceProvider in ``` config/app.p
 
 To publish the config, run the vendor publish command:
 ```
-php artisan vendor:publish --provider="Centralbank\Exchangerates\ExchangeRatesServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Centralbank\Exchangerates\ExchangeRatesServiceProvider"
 ```
 This will create a new config file named ``` config/exchangerates-api.php ```
 
